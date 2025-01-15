@@ -10,3 +10,7 @@ install gitignore -> choose node
 # 1.1
 
 npm install @apollo/server graphql
+
+# 1.4
+
+npm install @prisma/client
