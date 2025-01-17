@@ -14,3 +14,7 @@ npm install @apollo/server graphql
 # 1.4
 
 npm install @prisma/client
+
+PostgreSQL - port 5432 already in use
+
+> > sudo pkill -u postgres
