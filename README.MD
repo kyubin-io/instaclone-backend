@@ -18,3 +18,7 @@ npm install @prisma/client
 PostgreSQL - port 5432 already in use
 
 > > sudo pkill -u postgres
+
+# 1.8
+
+npx prisma studio

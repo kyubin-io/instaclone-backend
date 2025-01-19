@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "dev": "npm run compile && nodemon --exec node ./dist/server.js"
+    "dev": "npm run compile && nodemon --exec node ./dist/server.js",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
   },
   "keywords": [],
   "author": "",
