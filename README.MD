@@ -46,3 +46,6 @@ npx prisma init
 After finishing create model,
 you have to migrate.
 We already have it in package.json ("migrate" : npx prisma migrate ....), all we have to do is "npm run migrate"
+
+keep schema of prisma syncronised with type defintion(graphQL schema).
+must migrate evertime you change your prisma schema
