@@ -1,6 +1,7 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 import "dotenv/config";
+import schema from "./schema";
 
 const typeDefs = `#graphql
   type Book {
