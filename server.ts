@@ -3,17 +3,6 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 import "dotenv/config";
 import schema from "./schema";
 
-const typeDefs = `#graphql
-  type Book {
-    title: String
-    author: String
-  }
-
-    type Query {
-    books: [Book]
-  }
-`;
-
 const resolvers = {
   Query: {
     books: () => "hhhhh",
@@ -21,8 +10,7 @@ const resolvers = {
 };
 
 const server = new ApolloServer({
-  typeDefs,
-  resolvers,
+  schema,
 });
 
 const PORT = Number(process.env.PORT);
