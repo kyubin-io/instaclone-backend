@@ -23,6 +23,13 @@ PostgreSQL - port 5432 already in use
 
 npx prisma studio
 
+# 1.10
+
+loadFilesSync 파일 경로 패턴 정의
+_\_\_filename 현재 실행 중인 파일 경로
+_\_\_dirname 현재 실행 중인 폴더 경로
+/\*_/_.typeDefs.js 모들 폴더의 모든 이름의 typeDefs.js
+
 # 1.12
 
 postgres로 접속해서
