@@ -10,4 +10,6 @@ const resolvers = mergeResolvers(loadedResolvers);
 
 const schema = makeExecutableSchema({ typeDefs, resolvers });
 
+console.log(schema);
+
 export default schema;
