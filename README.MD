@@ -25,6 +25,10 @@ npx prisma studio
 
 # 1.10
 
+@graphql-tools/schema
+@graphql-tools/merge
+@graphql-tools/load-files
+
 loadFilesSync 파일 경로 패턴 정의
 _\_\_filename 현재 실행 중인 파일 경로
 _\_\_dirname 현재 실행 중인 폴더 경로
