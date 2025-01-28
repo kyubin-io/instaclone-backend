@@ -60,3 +60,5 @@ We already have it in package.json ("migrate" : npx prisma migrate ....), all we
 
 keep schema of prisma syncronised with type defintion(graphQL schema).
 must migrate evertime you change your prisma schema
+
+# 2.1
