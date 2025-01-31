@@ -62,3 +62,6 @@ keep schema of prisma syncronised with type defintion(graphQL schema).
 must migrate evertime you change your prisma schema
 
 # 2.1
+node modules 커밋했을 때
+git rm -r --cached node_modules
+
